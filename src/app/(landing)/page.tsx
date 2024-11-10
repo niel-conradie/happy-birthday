@@ -19,13 +19,13 @@ export default function LandingPage() {
       <div className="flex min-h-screen items-center justify-center py-40">
         <Modal>
           <ModalTrigger>
-            <span className="font-sans">
+            <span className="font-mono tracking-widest">
               <FlipWords words={callToAction} duration={500} />
             </span>
           </ModalTrigger>
           <ModalBody>
             <ModalContent>
-              <p className="mb-8 space-x-2 text-center font-mono text-2xl font-bold md:text-4xl">
+              <p className="mb-8 space-x-2 text-center tracking-widest font-mono text-2xl font-bold md:text-3xl">
                 {title}
               </p>
               <div className="flex items-center justify-center">

@@ -4,13 +4,7 @@ import image3 from "@/assets/images/image-3.jpg";
 import image4 from "@/assets/images/image-4.jpg";
 import image5 from "@/assets/images/image-5.jpg";
 
-export const callToAction = [
-  "",
-  "Druk hier!",
-  "Druk hier vinnig!",
-  "Druk hier vinning voor!",
-  '"Michael Bay Explosion!!!"',
-];
+export const callToAction = ["", "Hello Jesse!", "Druk hier!"];
 
 export const title = "Gelukkige Verjaarsdag";
 
